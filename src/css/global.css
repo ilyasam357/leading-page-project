@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:400,400i,500,600,700,800display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:400,400i,500,600,700,800display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    /* max-width: 320px; */
+    margin-inline: auto;
+    background-color: #e0e0e0;
+    min-height: 100vh;
+    height: auto;
+}
+.root {
+    background-color: #fff;
+    min-height: 100vh;
+    height: auto;
+    /* background: rgb(28, 28, 74); */
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Frank Ruhl Libre", serif;
+}

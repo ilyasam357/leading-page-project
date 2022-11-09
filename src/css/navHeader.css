@@ -1,0 +1,63 @@
+header .textHiddenForMobile {
+    background: #314438;
+    color: #f3eeea;
+    text-align: center;
+    font-size: 12.6px;
+    padding: 10px 0px;
+    line-height: 19px;
+}
+.forMobile {
+    padding-bottom: 21px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid gray;
+}
+
+nav .nav_hamburger > a {
+    font-size: 23px;
+    text-decoration: none;
+    color: #314438;
+}
+nav .nav_hamburger > img {
+    width: 84px;
+    margin-left: 21px;
+}
+nav > svg {
+    width: 23px;
+}
+
+#navbarMobile {
+    position: fixed;
+    top: -90px;
+    width: 320px;
+    transition: top 0.9s;
+    z-index: 1;
+    background: #f3eeea;
+}
+
+/* header for tablet */
+@media screen and (min-width: 768px) {
+    nav {
+    padding: 12px 21px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .forMobile {
+        display: none;
+    }
+    #navbar{
+        position: fixed;
+        top: -90px;
+        width: 100%;
+        transition: top 0.9s;
+        z-index: 1;
+        background: #f3eeea;
+    }
+}
